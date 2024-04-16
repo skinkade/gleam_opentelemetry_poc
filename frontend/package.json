@@ -1,0 +1,25 @@
+{
+  "name": "glotel_test_frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0",
+    "vite-gleam": "^0.4.1"
+  },
+  "dependencies": {
+    "@opentelemetry/auto-instrumentations-web": "^0.38.0",
+    "@opentelemetry/context-zone": "^1.23.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.50.0",
+    "@opentelemetry/instrumentation": "^0.50.0",
+    "@opentelemetry/resources": "^1.23.0",
+    "@opentelemetry/sdk-trace-base": "^1.23.0",
+    "@opentelemetry/sdk-trace-web": "^1.23.0",
+    "@opentelemetry/semantic-conventions": "^1.23.0"
+  }
+}
